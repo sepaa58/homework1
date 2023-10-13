@@ -10,7 +10,7 @@ public class Homework1 {
             System.out.println("Какой модуль вас интересует?\n1 - greetings\n2 - checkSign\n3 - selectColor\n" +
                     "4 - compareNumbers\n5 - addOrSubtractAndPrint\n0 - Выход");
             int switchcase = scanner.nextInt();
-            System.out.println(" ");
+            System.out.println("   ");
             if (switchcase == 1) {
                 greetings();
                 System.out.println("\n");
